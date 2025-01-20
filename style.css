@@ -17,15 +17,18 @@ body {
     text-decoration: none;
     font-size: 17px;
     margin-bottom: 20px;
-  }
+    transition: background-color 0.3s;
+}
   
-  .topnav a:hover {
+.topnav a:hover {
     color: black;
-  }
+    background-color: rgb(37, 35, 35);
+}
   
-  .topnav a.active {
+.topnav a.active {
     color: white;
-  }
+    background-color: rgb(37, 35, 35);
+}
 
 .active {
     background-color: rgb(37, 35, 35);
