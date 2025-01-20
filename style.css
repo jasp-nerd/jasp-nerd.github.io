@@ -27,7 +27,9 @@ body {
     color: white;
   }
 
-
+.active {
+    background-color: rgb(37, 35, 35);
+}
 
 .subscribe-button {
     background-color: rgb(200, 0, 0);
