@@ -1,59 +1,3 @@
-body {
-    font-family: Roboto, Arial;
-    margin: 0;
-    font-size: 16px;
-}
-
-.header {
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 70px;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    height: 70px;
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 100%;
-    width: auto;
-}
-
-.topnav {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.topnav a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 8px 16px;
-    border-radius: 4px;
-    background-color: rgb(223, 222, 222);
-}
-
-.topnav a:hover {
-    transition: background-color 0.3s;
-    color: black;
-    background-color: #f0f0f0;
-}
-
-.main-text {
-    margin-top: 0;
-    padding: 20px 20px;
-    margin-bottom: 0;
-}
-
 .welcome {
     padding-top: 2em;
     padding-bottom: 10em;
@@ -78,13 +22,37 @@ body {
 }
 
 .about-me-text {
-    margin-top: 2em;
+    margin-top: 0;
     color: rgb(54, 15, 54);
     font-size: 1.5em;
     width: 25em;
     text-align: left;
     padding: 1.5em;
     padding-left: 5em;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+
+.social-link {
+    color: purple;
+    font-size: 2em;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #0066cc; 
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
 }
 
 .about-me-image {
@@ -113,11 +81,6 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.project {
-    background-color: rgb(35, 34, 34);
-    color: white;
-    padding-bottom: 20em;
-}
 @media (max-width: 1500px) {
     .about-me-image {
         width: 25vw;
@@ -143,19 +106,17 @@ body {
         width: 30vw;
         height: 30vw;
         margin-right: 5em;
+        margin-top: 12em;
     }
     
     .about-me-pfp {
         width: 25vw;
         height: 25vw;
         right: 3em;
+        top: 22em;
     }
 }
 @media (max-width: 768px) {
-    .topnav {
-        display: none;
-    }
-
     .welcome {
         flex-direction: column;
         padding: 1em;
@@ -165,21 +126,19 @@ body {
         width: auto;
         font-size: 1.2em;
         padding: 1em;
-        margin-top: 2em;
+        margin-top: 0;
         text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
     }
 
     .about-me-image,
     .about-me-pfp {
         display: none;
-    }
-
-    .header {
-        padding: 5px 10px;
-    }
-
-    .logo {
-        height: 50px;
     }
 
     .welcome::after {

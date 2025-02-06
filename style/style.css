@@ -1,0 +1,95 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main-text {
+    margin-top: 0;
+    padding: 20px 20px;
+    margin-bottom: 0;
+}
+
+
+.project {
+    background-color: rgb(35, 34, 34);
+    color: white;
+    padding-bottom: 20em;
+}
+
+
+
+@media (max-width: 1500px) {
+    .about-me-image {
+        width: 25vw;
+        height: 25vw;
+        margin-right: 10em;
+    }
+    
+    .about-me-pfp {
+        width: 20vw;
+        height: 20vw;
+        right: 5em;
+    }
+    .about-me-text {
+        width: 20em;
+        font-size: 1.2em;
+        padding: 1em;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me-image {
+        width: 30vw;
+        height: 30vw;
+        margin-right: 5em;
+        margin-top: 12em;
+    }
+    
+    .about-me-pfp {
+        width: 25vw;
+        height: 25vw;
+        right: 3em;
+        top: 22em;
+    }
+}
+@media (max-width: 768px) {
+    .topnav {
+        display: none;
+    }
+
+    .welcome {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .about-me-text {
+        width: auto;
+        font-size: 1.2em;
+        padding: 1em;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .about-me-image,
+    .about-me-pfp {
+        display: none;
+    }
+
+    .header {
+        padding: 5px 10px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .welcome::after {
+        width: 20em;
+        height: 20em;
+        bottom: -10em;
+        right: -5em;
+    }
+}
