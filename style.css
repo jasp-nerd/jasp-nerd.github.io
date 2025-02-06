@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, Arial;
     margin: 0;
+    font-size: 16px;
 }
 
 .header {
@@ -33,40 +34,83 @@ body {
 
 .topnav a {
     color: black;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     padding: 8px 16px;
     border-radius: 4px;
-    transition: background-color 0.3s;
-    background-color: whitesmoke;
+    background-color: rgb(223, 222, 222);
 }
 
 .topnav a:hover {
+    transition: background-color 0.3s;
     color: black;
     background-color: #f0f0f0;
 }
 
 .main-text {
-    margin-top: 20px;
+    margin-top: 0;
     padding: 20px 20px;
-    margin-bottom: 40px; 
-    border-width: 1px;
-    border-style: solid;
-    border-color: #7626f7;
+    margin-bottom: 0;
 }
 
 .welcome {
-    color: black;
+    padding-top: 2em;
     padding-bottom: 10em;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;  
+    overflow: hidden;  
+}
+
+.welcome::after {
+    content: '';
+    position: absolute;
+    bottom: -20em;
+    right: -10em;
+    width: 50em;
+    height: 50em;
+    background: rgba(49, 4, 121, 0.5); 
+    border-radius: 50%;
+    filter: blur(70px);
+    z-index: -1;
 }
 
 .about-me-text {
-    background-color: gray;
+    margin-top: 2em;
+    color: rgb(54, 15, 54);
+    font-size: 1.5em;
     width: 25em;
     text-align: left;
-    padding: 2em;
-    margin-top: 7.5em;
+    padding: 1.5em;
+    padding-left: 5em;
+}
+
+.about-me-image {
+    width: 30em;
+    height: 30em; 
+    margin-top: 5em;
+    margin-right: 20em;
+    object-fit: cover; 
+    object-position: center 30%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.about-me-pfp {
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 12em;
+    top: 22em;
+    transition: transform 0.3s ease;
+}
+
+.about-me-pfp:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .project {
@@ -74,9 +118,74 @@ body {
     color: white;
     padding-bottom: 20em;
 }
+@media (max-width: 1500px) {
+    .about-me-image {
+        width: 25vw;
+        height: 25vw;
+        margin-right: 10em;
+    }
+    
+    .about-me-pfp {
+        width: 20vw;
+        height: 20vw;
+        right: 5em;
+    }
+    .about-me-text {
+        width: 20em;
+        font-size: 1.2em;
+        padding: 1em;
+        margin-top: 2em;
+    }
+}
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
+    .about-me-image {
+        width: 30vw;
+        height: 30vw;
+        margin-right: 5em;
+    }
+    
+    .about-me-pfp {
+        width: 25vw;
+        height: 25vw;
+        right: 3em;
+    }
+}
+@media (max-width: 768px) {
     .topnav {
         display: none;
+    }
+
+    .welcome {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .about-me-text {
+        width: auto;
+        font-size: 1.2em;
+        padding: 1em;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .about-me-image,
+    .about-me-pfp {
+        display: none;
+    }
+
+    .header {
+        padding: 5px 10px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .welcome::after {
+        width: 20em;
+        height: 20em;
+        bottom: -10em;
+        right: -5em;
     }
 }
