@@ -27,13 +27,13 @@
 }
 
 .topnav a {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
     padding: 8px 16px;
     border-radius: 4px;
-    background-color: rgb(223, 222, 222);
+    background-color: rgb(49, 4, 121);
 }
 
 .topnav a:hover {

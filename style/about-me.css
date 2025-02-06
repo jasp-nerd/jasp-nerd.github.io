@@ -38,13 +38,9 @@
 }
 
 .social-link {
-    color: purple;
+    color: rgb(49, 4, 121);
     font-size: 2em;
     transition: color 0.3s ease;
-}
-
-.social-link:hover {
-    color: #0066cc; 
 }
 
 .fa-github:hover {
@@ -94,10 +90,11 @@
         right: 5em;
     }
     .about-me-text {
-        width: 20em;
+        width: 30em;
         font-size: 1.2em;
-        padding: 1em;
-        margin-top: 2em;
+        padding: 2em;
+        margin-left: 2em;
+        text-align: left;
     }
 }
 
@@ -114,6 +111,14 @@
         height: 25vw;
         right: 3em;
         top: 22em;
+    }
+
+    .about-me-text {
+        width: 30em;
+        font-size: 1.2em;
+        padding: 2em;
+        margin-left: 2em;
+        text-align: left;
     }
 }
 @media (max-width: 768px) {
