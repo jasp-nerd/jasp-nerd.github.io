@@ -5,20 +5,21 @@ body {
     line-height: 1.5;
 }
 
-.main-text {
+.content-section {
     margin-top: 0;
     padding: 20px 20px;
     margin-bottom: 0;
 }
 
-
-.project {
+.projects-section {
     background-color: rgb(35, 34, 34);
     color: white;
     padding-bottom: 20em;
 }
 
-
+.skills-section {
+    color: inherit;
+}
 
 @media (max-width: 1500px) {
     .about-me-image {

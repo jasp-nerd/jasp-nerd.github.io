@@ -1,4 +1,4 @@
-.header {
+.site-header {
     top: 0;
     left: 0;
     right: 0;
@@ -9,24 +9,24 @@
     align-items: center;
 }
 
-.logo {
+.site-logo {
     height: 70px;
     display: flex;
     align-items: center;
 }
 
-.logo img {
+.site-logo img {
     height: 100%;
     width: auto;
 }
 
-.topnav {
+.main-navigation {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.topnav a {
+.main-navigation a {
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -36,7 +36,7 @@
     background-color: rgb(223, 222, 222);
 }
 
-.topnav a:hover {
+.main-navigation a:hover {
     transition: background-color 0.3s;
     color: black;
     background-color: #f0f0f0;
@@ -49,15 +49,15 @@
 }
 
 @media (max-width: 768px) {
-    .topnav {
+    .main-navigation {
         display: none;
     }
 
-    .header {
+    .site-header {
         padding: 5px 10px;
     }
 
-    .logo {
+    .site-logo {
         height: 50px;
     }
 }
