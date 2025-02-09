@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.site-logo {
+.site-logo a{
     height: 70px;
     display: flex;
     align-items: center;
@@ -27,19 +27,19 @@
 }
 
 .main-navigation a {
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
     padding: 8px 16px;
     border-radius: 4px;
-    background-color: rgb(49, 4, 121);
+    background-color: #6A0DAD;
 }
 
 .main-navigation a:hover {
     transition: background-color 0.3s;
     color: black;
-    background-color: #f0f0f0;
+    background-color: #D8BFD8; 
 }
 
 @media (max-width: 1500px) {

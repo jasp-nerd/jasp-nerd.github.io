@@ -5,18 +5,25 @@
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="style/about-me.css">
   <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/projects.css">
+  <link rel="stylesheet" href="style/skills.css">
   <title>jasp</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/3861d8a0e0.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/ico.png" type="image/x-icon">
 </head>
 
 <body>
   <div class="site-header">
     <div class="site-logo">
-      <img class="logo-image" src="images/ja.png">
+      <a href="https://jasp-nerd.github.io">
+        <img class="logo-image" src="images/logo.png">
+      </a>
     </div>
     <div class="main-navigation">
       <nav>
@@ -40,12 +47,15 @@
       </p>
       <div class="social-media-links">
         <a href="https://github.com/jasp-nerd" target="_blank" class="social-media-icon">
-            <i class="fab fa-github"></i>
+          <i class="fab fa-github"></i>
         </a>
         <a href="https://www.linkedin.com/in/jasper-meij-vu/" target="_blank" class="social-media-icon">
-            <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin"></i>
         </a>
-    </div>
+        <a href="mailto:j.f.l.meijerink@student.vu.nl" class="social-media-icon">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
     </div>
     <div class="hero-images">
       <img src="images/grad.jpg" class="hero-main-image">
@@ -54,15 +64,104 @@
   </div>
 
   <div class="content-section projects-section" id="projects">
-    <div style="border: 1px, solid red;">
-      <h2>My Projects</h2>
-      
+    <h2>My Projects</h2>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <div class="project-title">Card Game Bot</div>
+        <div class="project-description">Engineered rule-based bots representing risk-taking and laid-back strategies
+          for the card game Schnapsen using Python. Implemented game logic, bot decision-making algorithms, and
+          controlled simulation environments.</div>
+        <div class="project-skills">Python</div>
+        <div class="project-icons">
+          <a href="https://github.com/jasp-nerd/schnapsen" target="_blank" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="research/SchnapsenBot.pdf" target="_blank" class="project-icon">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Al-Powered Media Bias Detection Tool Methodology</div>
+        <div class="project-description">Proposed a methodology for a browser extension using a combination of machine
+          learning models (BERT and Random Forest) for enhanced political bias detection in online news articles.
+          Personally conceptualized a user-friendly interface to display bias analysis, explanatory tags, and
+          highlighted biased content.</div>
+        <div class="project-skills">Python, Machine Learning</div>
+        <div class="project-icons">
+          <a href="https://github.com/jasp-nerd/media-bias-detector" target="_blank" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="research/MediaBias.pdf" target="_blank" class="project-icon">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-title">Fully Functional Webshop Development</div>
+        <div class="project-description">Implemented data storage and retrieval using MySQL for product catalog, user
+          management, and order processing. Developed features including browsing products, adding to cart and order
+          placement.</div>
+        <div class="project-skills">MySQL, HTML, CSS, JavaScript</div>
+        <div class="project-icons">
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-title">iTrade Stock Market Tool</div>
+        <div class="project-description">A Python-based command-line tool designed to help novice traders make informed
+          decisions in the stock market. The application analyzes a database of approximately 500 stocks and provides
+          recommendations based on user preferences.</div>
+        <div class="project-skills">Python</div>
+        <div class="project-icons">
+          <a href="https://github.com/jasp-nerd/computational-thinking-project" target="_blank" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="research/iTrade.pdf" target="_blank" class="project-icon">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-title">Personal Static Website</div>
+        <div class="project-description">My personal website to showcase my projects, skills, and experience. Designed
+          to be clean, responsive, and easy to navigate.</div>
+        <div class="project-skills">HTML, CSS</div>
+        <div class="project-icons">
+          <a href="https://github.com/jasp-nerd/jasp-nerd.github.io" target="_blank" class="project-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 
   <div class="content-section skills-section" id="skills">
     <h2>Skills</h2>
     <p>Python, HTML & CSS, JavaScript, Git, Linux</p>
+    <div class="skills-icons">
+      <a href="#" class="skill-icon">
+        <i class="fab fa-html5"></i>
+      </a>
+      <a href="#" class="skill-icon">
+        <i class="fab fa-css3-alt"></i>
+      </a>
+      <a href="#" class="skill-icon">
+        <i class="fas fa-database"></i>
+      </a>
+      <a href="#" class="skill-icon">
+        <i class="fab fa-js"></i>
+      </a>
+      <a href="#" class="skill-icon">
+        <i class="fab fa-python"></i>
+      </a>
+      <a href="#" class="skill-icon">
+        <i class="fab fa-git-alt"></i>
+      </a>
+    </div>
   </div>
 </body>
 

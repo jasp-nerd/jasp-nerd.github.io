@@ -1,0 +1,51 @@
+.skills-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skills-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-icon {
+    font-size: 2.5em;
+    color: #6A0DAD;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.skill-icon:hover {
+    color: #D8BFD8;
+    transform: scale(1.1);
+}
+
+.skills-section::after {
+    content: '';
+    position: absolute;
+    top: -30em;    
+    right: 70em;  
+    width: 50em;   
+    height: 50em;  
+    background: rgba(106, 13, 173, 0.5);
+    border-radius: 50%;
+    filter: blur(70px); 
+    z-index: 2;    
+    pointer-events: none; 
+}
