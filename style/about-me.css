@@ -55,6 +55,10 @@
     color: #0A66C2;
 }
 
+.fa-envelope:hover {
+    color: #D14836;
+}
+
 .hero-main-image {
     width: 30em;
     height: 30em; 
