@@ -1,0 +1,92 @@
+{
+  "basics": {
+    "name": "Jasper Meijerink",
+    "label": "AI & Data Science",
+    "image": "",
+    "email": "jasper.meijerink@outlook.com",
+    "summary": "AI student at VU Amsterdam with hands-on experience building full-stack applications, fine-tuning ML models, and delivering AI literacy workshops.",
+    "location": {"city": "Amsterdam", "countryCode": "NL"},
+    "profiles": [
+      {"network": "GitHub", "username": "jasp-nerd", "url": "https://github.com/jasp-nerd"},
+      {"network": "LinkedIn", "username": "jasper-meij-ai", "url": "https://linkedin.com/in/jasper-meij-ai"}
+    ]
+  },
+  "work": [
+    {
+      "name": "Siemens",
+      "position": "Working Student — AI & Data Science",
+      "location": "The Hague, Netherlands",
+      "startDate": "2026-03-01",
+      "endDate": "",
+      "summary": "Developing AI-powered solutions (chatbots, process automation, data pipelines) for Siemens Buildings Service operations.",
+      "highlights": ["Analyzing operational datasets and building dashboards", "Co-developing the AI roadmap to prioritize high-impact use cases"]
+    },
+    {
+      "name": "AISO & UvA Teaching and Learning Centre",
+      "position": "AI Impact Ambassador",
+      "location": "Amsterdam, Netherlands",
+      "startDate": "2026-01-01",
+      "endDate": "",
+      "summary": "Representing the student perspective on AI in education across university leadership.",
+      "highlights": ["Contributing to institutional guidelines for responsible AI adoption"]
+    },
+    {
+      "name": "VU Education Lab",
+      "position": "Student Assistant — AI in Education",
+      "location": "Amsterdam, Netherlands",
+      "startDate": "2025-03-01",
+      "endDate": "",
+      "summary": "Delivered AI workshops to 200+ faculty. Built a production Chrome extension with Node.js/Express backend and Azure OpenAI.",
+      "highlights": ["Chrome extension live on Chrome Web Store", "Collaborated on 15+ cross-functional GenAI projects", "Mentored 2 new team members"]
+    },
+    {
+      "name": "Vrije Universiteit Amsterdam",
+      "position": "Honours Evaluation Committee Member",
+      "location": "Amsterdam, Netherlands",
+      "startDate": "2025-12-01",
+      "endDate": "",
+      "summary": "Evaluating interdepartmental Honours course quality and advising on programme improvements.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vrije Universiteit Amsterdam",
+      "location": "Amsterdam, Netherlands",
+      "url": "https://vu.nl/en",
+      "area": "Artificial Intelligence",
+      "studyType": "BSc (Honours)",
+      "startDate": "2024-09-01",
+      "endDate": "2027-07-01",
+      "highlights": ["Intelligent Systems track", "Honours Programme (30 additional ECTS, 7.5+ GPA required)"]
+    },
+    {
+      "institution": "Rijnlands Lyceum Oegstgeest",
+      "location": "Oegstgeest, Netherlands",
+      "area": "VWO",
+      "studyType": "Secondary School",
+      "startDate": "2018-09-01",
+      "endDate": "2024-06-01",
+      "highlights": ["Einstein of the Year award for outstanding STEM performance"]
+    }
+  ],
+  "certificates": [
+    {"name": "AI Fluency: Framework & Foundations", "date": "2025-08-01", "issuer": "Anthropic", "icon": "fa-solid fa-certificate"},
+    {"name": "Azure Fundamentals (AZ-900)", "date": "2025-06-01", "issuer": "Microsoft", "icon": "fa-solid fa-certificate"},
+    {"name": "Azure AI Foundry — Agentic AI Solutions", "date": "2025-05-01", "issuer": "Microsoft", "icon": "fa-solid fa-certificate"},
+    {"name": "Google Cloud Compute Skill Badge", "date": "2025-05-01", "issuer": "Google", "icon": "fa-solid fa-certificate"}
+  ],
+  "skills": [
+    {"name": "Languages & Frameworks", "icon": "fa-solid fa-code", "keywords": ["Python", "TypeScript", "JavaScript", "SQL", "Flask", "Node.js", "Express", "React", "Tailwind CSS"]},
+    {"name": "ML & Data", "icon": "fa-solid fa-brain", "keywords": ["PyTorch", "Hugging Face Transformers", "DistilBERT", "FinBERT", "transfer learning", "Gradio"]},
+    {"name": "Infrastructure", "icon": "fa-solid fa-server", "keywords": ["Docker", "Azure", "GCP", "Heroku", "Vercel", "PostgreSQL", "SQLite"]}
+  ],
+  "languages": [
+    {"language": "Dutch", "fluency": "Native", "icon": ""},
+    {"language": "English", "fluency": "Fluent", "icon": ""}
+  ],
+  "interests": [
+    {"name": "AI in Education", "icon": "fa-solid fa-graduation-cap", "keywords": ["Responsible AI", "AI literacy", "Educational tools"]},
+    {"name": "Machine Learning", "icon": "fa-solid fa-robot", "keywords": ["NLP", "Transformers", "Sentiment analysis"]}
+  ]
+}

@@ -1,0 +1,121 @@
+cv:
+  name: Jasper Meijerink
+  label: AI & Data Science
+  email: jasper.meijerink@outlook.com
+  location: Amsterdam, Netherlands
+  image: ""
+  summary: AI student at VU Amsterdam with hands-on experience building full-stack applications, fine-tuning ML models, and delivering AI literacy workshops.
+
+  social_networks:
+    - network: GitHub
+      username: jasp-nerd
+    - network: LinkedIn
+      username: jasper-meij-ai
+
+  sections:
+    Education:
+      - institution: Vrije Universiteit Amsterdam
+        location: Amsterdam, Netherlands
+        url: https://vu.nl/en
+        area: Artificial Intelligence
+        studyType: BSc (Honours)
+        start_date: 2024-09
+        end_date: 2027-07
+        highlights:
+          - "Intelligent Systems track, Honours Programme (30 additional ECTS, 7.5+ GPA required)"
+          - "Coursework: Data Structures & Algorithms, Applied Programming for AI, Project Intelligent Systems, Human Computer Interaction, Logic & Sets"
+
+      - institution: Rijnlands Lyceum Oegstgeest
+        location: Oegstgeest, Netherlands
+        area: VWO
+        studyType: Secondary School
+        start_date: 2018-09
+        end_date: 2024-06
+        highlights:
+          - "Einstein of the Year award for outstanding STEM performance"
+
+    Experience:
+      - company: Siemens
+        position: Working Student — AI & Data Science
+        location: The Hague, Netherlands
+        start_date: 2026-03
+        end_date: ""
+        summary: Developing AI-powered solutions (chatbots, process automation, data pipelines) for Siemens Buildings Service operations. Analyzing operational datasets and building dashboards for data-driven insights.
+
+      - company: AISO & UvA Teaching and Learning Centre
+        position: AI Impact Ambassador
+        location: Amsterdam, Netherlands
+        start_date: 2026-01
+        end_date: ""
+        summary: Representing the student perspective on AI in education. Contributing to institutional guidelines for responsible AI adoption.
+
+      - company: VU Onderwijswerkplaats | VU Education Lab
+        position: Student Assistant — AI in Education
+        location: Amsterdam, Netherlands
+        start_date: 2025-03
+        end_date: ""
+        summary: Delivered AI workshops to 200+ faculty across Law, Business, and Sciences. Built a production Chrome extension (Chrome Web Store) with Node.js/Express backend and Azure OpenAI integration. Collaborated on 15+ cross-functional GenAI projects.
+        highlights:
+          - "Chrome extension with 5 educational tools, multilingual support, Google OAuth"
+          - "Mentored 2 new team members on workshop delivery and cloud tooling"
+
+      - company: Vrije Universiteit Amsterdam
+        position: Honours Evaluation Committee Member
+        location: Amsterdam, Netherlands
+        start_date: 2025-12
+        end_date: ""
+        summary: Evaluating interdepartmental Honours course quality and advising on programme improvements.
+
+    Skills:
+      - name: Languages & Frameworks
+        level: ""
+        icon: fa-solid fa-code
+        keywords: "Python, TypeScript, JavaScript, SQL, Flask, Node.js, Express, React, Tailwind CSS"
+
+      - name: ML & Data
+        level: ""
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, Hugging Face Transformers, DistilBERT, FinBERT, transfer learning, fine-tuning, Gradio"
+
+      - name: Infrastructure
+        level: ""
+        icon: fa-solid fa-server
+        keywords: "Docker, Azure, GCP, Heroku, Vercel, PostgreSQL, SQLite"
+
+      - name: Tools & Practices
+        level: ""
+        icon: fa-solid fa-wrench
+        keywords: "Git, RESTful APIs, pytest, Agile/Scrum, Chrome Extension APIs"
+
+    Certificates:
+      - name: "AI Fluency: Framework & Foundations"
+        date: 2025-08
+        issuer: Anthropic
+        icon: fa-solid fa-certificate
+
+      - name: "Azure Fundamentals (AZ-900)"
+        date: 2025-06
+        issuer: Microsoft
+        icon: fa-solid fa-certificate
+
+      - name: "Azure AI Foundry — Agentic AI Solutions"
+        date: 2025-05
+        issuer: Microsoft
+        icon: fa-solid fa-certificate
+
+      - name: "Google Cloud Compute Skill Badge"
+        date: 2025-05
+        issuer: Google
+        icon: fa-solid fa-certificate
+
+      - name: "Classify Images with TensorFlow on Google Cloud"
+        date: 2025-04
+        issuer: Google
+        icon: fa-solid fa-certificate
+
+    Languages:
+      - name: Dutch
+        summary: "Native"
+
+      - name: English
+        summary: "Fluent"

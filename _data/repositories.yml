@@ -1,0 +1,12 @@
+github_users:
+  - jasp-nerd
+
+repo_description_lines_max: 2
+
+github_repos:
+  - jasp-nerd/canvas-course-downloader
+  - jasp-nerd/SentimentEdge
+  - jasp-nerd/VU-Education-Lab-AI-Assistant-for-Teachers
+  - jasp-nerd/ai-text-detector
+  - jasp-nerd/BookBuddy
+  - jasp-nerd/vu-ai-hub
